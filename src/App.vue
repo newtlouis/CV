@@ -1,13 +1,7 @@
 <template>
 <div class="cv">
-    <div id="nav">
-      <router-link to="/"><i class="fas fa-user"></i></router-link> 
-      <router-link to="/skills"><i class="fas fa-tools"></i></router-link>
-      <router-link to="/projet"><i class="fas fa-lightbulb"></i></router-link>
-      <router-link to="/projet"><i class="fas fa-suitcase"></i></router-link>
-      <router-link to="/cursus"><i class="fas fa-history"></i></router-link>
-      <router-link to="/contact"><i class="fas fa-phone"></i></router-link>
-    </div>
+    <Menu/>
+   
     <img alt="Vue logo" src="./assets/photo_profil.jpg">
 
     <section class="main">
@@ -15,6 +9,21 @@
     </section>
   </div>
 </template>
+
+<script>
+// @ is an alias to /src
+import Menu from '@/components/Menu.vue';
+
+
+
+
+export default {
+  name: 'App',
+  components: {
+    Menu
+  }
+}
+</script>
 
 <style lang="scss">
 
@@ -52,24 +61,6 @@ $fa-font-path: "~@fortawesome/fontawesome-free/webfonts";
   
 }
 
-#nav {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  padding: 30px;
-  height: 100%;
-  background-color: gray;
-
-  a {
-    margin: 20px 0;
-    font-weight: bold;
-    color: #2c3e50;
-
-    &.router-link-exact-active {
-      color: #e6a031;
-    }
-  }
-}
 
 .main{
   // width: 100%;
