@@ -1,9 +1,8 @@
 <template>
 <div id="nav">
       <router-link to="/"><div class="button user"><i class="fas fa-user"></i></div></router-link> 
-      <router-link to="/skills"><div class="button"><i class="fas fa-tools"></i></div></router-link>
-      <router-link to="/projets"><div class="button light"><i class="fas fa-lightbulb"></i></div></router-link>
-      <router-link to="/experience"><div class="button"><i class="fas fa-suitcase"></i></div></router-link>
+      <router-link to="/skills"><div class="button light"><i class="fas fa-lightbulb"></i></div></router-link>
+      <router-link to="/projets"><div class="button "><i class="fas fa-suitcase"></i></div></router-link>
       <router-link to="/cursus"><div class="button"><i class="fas fa-history"></i></div></router-link>
     </div>
 </template>
@@ -19,11 +18,11 @@ export default {
 <style scoped lang="scss">
 
 .light{
-  padding-left: 4px;
+  transform: translate(4px,-0.5px);
 }
 
 .user{
-  padding: 0 0 3px 2px;
+  transform: translate(2px,-1.5px);
 }
 
 #nav {
@@ -44,15 +43,9 @@ export default {
     box-shadow: 0 0 3px 1px white;
     padding: 10px;
 
-    
-
-
     &:hover{
       transform: scale(1.2);  
-
     }
-    // transform-origin: 0 -50px; 
-
 
     &.router-link-exact-active {
       color: #FE9900;
@@ -66,8 +59,5 @@ i{
     font-size: 30px;
     text-align: center;
 }
-
-
-
 
 </style>
