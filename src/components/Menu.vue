@@ -50,6 +50,8 @@ export default {
     &.router-link-exact-active {
       color: #FE9900;
       border: solid 1px #FE9900;
+    box-shadow: 0 0 5px 2px #FE9900;
+
 
       }
   }
