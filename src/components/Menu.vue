@@ -5,7 +5,6 @@
       <router-link to="/projets"><i class="fas fa-lightbulb"></i></router-link>
       <router-link to="/experience"><i class="fas fa-suitcase"></i></router-link>
       <router-link to="/cursus"><i class="fas fa-history"></i></router-link>
-      <router-link to="/contact"><i class="fas fa-phone"></i></router-link>
     </div>
 </template>
 
@@ -20,21 +19,26 @@ export default {
 <style scoped lang="scss">
 #nav {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   flex-direction: column;
-  padding: 30px;
+  padding: 0 30px;
   height: 100%;
-  background-color: gray;
+  background-color:#414439;
 
   a {
     margin: 20px 0;
     font-weight: bold;
-    color: #2c3e50;
+    color: #fff;
+
 
     &.router-link-exact-active {
-      color: #e6a031;
+      color: #FE9900;
     }
   }
+}
+
+i{
+    font-size: 30px;
 }
 
 

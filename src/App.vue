@@ -46,7 +46,7 @@ $fa-font-path: "~@fortawesome/fontawesome-free/webfonts";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #2c3e50;
-  background-color: #fca416;
+  background-color:#FE9900;
   padding: 100px;
   width: 100vw;
   height: 100vh;
@@ -66,6 +66,9 @@ $fa-font-path: "~@fortawesome/fontawesome-free/webfonts";
   // width: 100%;
   height: 100%;
   background-color: #ffffff;
+  border: solid #414439 1px;
+  border-left: none;
+
 }
 
 img{
