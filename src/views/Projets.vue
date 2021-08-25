@@ -3,18 +3,18 @@
     <h1>Projets réalisés</h1>
     <div class="projets__list">
       <div class="projets__item projets__item--1">
-          <a class="reservia" href="https://github.com/newtlouis/Reservia--site-web" target="_blank"></a>
+          <a class="reservia" href="https://newtlouis.github.io/Reservia--site-web/" target="_blank"></a>
         <div class="info">
             <div class="title">Reservia</div>
-            <div class="more">Intégration d'une maquette responsive</div>
+            <div class="more">Intégration d'une maquette responsive d'un site de location d'appartement</div>
         </div>
       </div>
 
       <div class="projets__item projets__item--2">
-        <a class="ohmyfood" href="https://github.com/newtlouis/Ohmyfood--site-web-anime" target="_blank"></a>
+        <a class="ohmyfood" href="https://newtlouis.github.io/Ohmyfood--site-web-anime/" target="_blank"></a>
         <div class="info">
-            <div class="title">Ohmyfood !</div>
-            <div class="more">Intégration d'une maquette fournie, d'une page web, de manière reponsive et de la dynamiser avec des animations CSS en utilisant le préprocesseur Sass</div>
+            <div class="title">Ohmyfood (mobile)</div>
+            <div class="more">Intégration d'une maquette responsive d'une page mobile et dynamisation avec des animations CSS en utilisant le préprocesseur Sass</div>
         </div>
       </div>
 

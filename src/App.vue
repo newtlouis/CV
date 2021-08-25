@@ -42,7 +42,7 @@ $fa-font-path: "~@fortawesome/fontawesome-free/webfonts";
 
 
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family:  'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif,Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #2c3e50;
@@ -68,7 +68,6 @@ $fa-font-path: "~@fortawesome/fontawesome-free/webfonts";
   background-color: #ffffff;
   border: solid #414439 1px;
   border-left: none;
-
   padding:20px;
   overflow-y: scroll;
   scrollbar-color: rebeccapurple green;

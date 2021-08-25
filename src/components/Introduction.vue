@@ -2,7 +2,7 @@
 <div class="container">
   <h1>Louis MICHEL</h1>
   <h2 class="item--1">Ingénieur généraliste et Developpeur Web Full Stack</h2>
-  <p class="item--2">Suite à mon diplôme d'ingénieur généraliste de l'école ENTPE à Lyon, j'ai poursuivi par la formation de developpeur web Full Stack au sein de l'organisme OpenClassrooms</p>
+  <p class="item--2">Suite à mon diplôme d'ingénieur généraliste de l'ENTPE, j'ai poursuivi par la formation de developpeur web Full Stack d'OpenClassrooms</p>
   <p class="item--2">Mon adresse email: <a href="mailto:louis.m.newton@hotmail.fr">louis.m.newton@hotmail.fr</a></p>
   <p class="item--2">Mon numéro: <a href="tel:+33661965595">+33 6 61 96 55 95</a></p>
 
@@ -25,9 +25,12 @@ export default {
 
 h2 {
   color: #FE9900;
+  font-size: 30px;
 }
 
-
+p{
+  font-size: 20px;
+}
 
 p, h2{
   margin: 30px 0;

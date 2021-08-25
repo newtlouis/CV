@@ -25,6 +25,7 @@
 }
 
 .skills__item{
+  font-size: 20px;
   width: 130px;
   margin: 3vw  0;
   text-align: center;
@@ -40,7 +41,7 @@
 
 
 i{
-  font-size: 30px;
+  font-size: 40px;
   padding: 0 10px;
   color: #FE9900;
 

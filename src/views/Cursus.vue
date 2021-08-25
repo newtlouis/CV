@@ -2,7 +2,6 @@
   <div class="container">
     <h1>Expériences professionnelles</h1>
     <div class="projets__list">
-
       <div class="projets__item">
             <h2><strong>2020/2021</strong>: Developpeur Web Front End, entreprise Boostasanté</h2>
       </div>
@@ -65,6 +64,7 @@
 </template>
 
 <style lang="scss" scoped>
+
 h1{
     margin-bottom: 20px;
 }
