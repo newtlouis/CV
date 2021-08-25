@@ -75,4 +75,8 @@ img{
   height: 80vh;
   border: solid gray 3px;
 }
+
+h1{
+  font-size: 40px;
+}
 </style>

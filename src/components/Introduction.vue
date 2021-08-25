@@ -1,6 +1,6 @@
 <template>
 <div class="container">
-  <h2>A propos</h2>
+  <h1>A propos</h1>
   <p>Suite à mon diplôme d'ingénieur généraliste de l'école ENTPE à Lyon, j'ai poursuivi par la formation de developpeur web Full Stack au sein de l'organisme OpenClassrooms</p>
 </div>
 </template>
