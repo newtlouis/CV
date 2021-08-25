@@ -69,11 +69,16 @@ $fa-font-path: "~@fortawesome/fontawesome-free/webfonts";
   border: solid #414439 1px;
   border-left: none;
 
+  padding:20px;
+  overflow-y: scroll;
+  scrollbar-color: rebeccapurple green;
+  scrollbar-width: thin;
+
 }
 
 img{
   height: 80vh;
-  border: solid gray 3px;
+  border: solid rgb(68, 68, 68) 15px;
 }
 
 h1{

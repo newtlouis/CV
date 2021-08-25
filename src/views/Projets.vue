@@ -2,7 +2,7 @@
   <div class="container">
     <h1>Projets réalisés</h1>
     <div class="projets__list">
-      <div class="projets__item">
+      <div class="projets__item projets__item--1">
           <a class="reservia" href="https://github.com/newtlouis/Reservia--site-web" target="_blank"></a>
         <div class="info">
             <div class="title">Reservia</div>
@@ -10,7 +10,7 @@
         </div>
       </div>
 
-      <div class="projets__item">
+      <div class="projets__item projets__item--2">
         <a class="ohmyfood" href="https://github.com/newtlouis/Ohmyfood--site-web-anime" target="_blank"></a>
         <div class="info">
             <div class="title">Ohmyfood !</div>
@@ -18,7 +18,7 @@
         </div>
       </div>
 
-      <div class="projets__item">
+      <div class="projets__item projets__item--3">
         <a class="orinoco" href="https://github.com/newtlouis/Orinoco--Front-End" target="_blank"></a>
         <div class="info">
             <div class="title">Orinoco</div>
@@ -26,7 +26,7 @@
         </div>
       </div>
 
-      <div class="projets__item">
+      <div class="projets__item projets__item--4">
         <a class="peakocko" href="https://github.com/newtlouis/peakocko-API-securisee" target="_blank"></a>
         <div class="info">
             <div class="title">So Peakocko- Backend</div>
@@ -34,7 +34,7 @@
         </div>
       </div>
 
-      <div class="projets__item">
+      <div class="projets__item projets__item--5">
         <a class="groupomania" href="https://github.com/newtlouis/R-seau-social-d-entreprise--Groupomania" target="_blank"></a>
         <div class="info">
             <div class="title">Groupomania</div>
@@ -42,7 +42,7 @@
         </div>
       </div>
 
-      <div class="projets__item">
+      <div class="projets__item projets__item--6">
         <a class="todolist" href="https://github.com/newtlouis/todo-list" target="_blank"></a>
         <div class="info">
             <div class="title">Todo List</div>
@@ -50,7 +50,7 @@
         </div>
       </div>
 
-      <div class="projets__item">
+      <div class="projets__item projets__item--7">
         <a class="weatherapp" href="https://github.com/newtlouis/weather-app" target="_blank"></a>
         <div class="info">
             <div class="title">Weather App</div>
@@ -63,12 +63,7 @@
 </template>
 
 <style lang="scss" scoped>
-.container{
-  padding: 20px;
-  overflow-y: scroll;
-  scrollbar-color: rebeccapurple green;
-  scrollbar-width: thin;
-}
+
 
 
 .projets__list{
@@ -85,7 +80,14 @@
   justify-content: right;
   align-items: center;
   margin: 20px 0;
+  animation: apparition 0.8s ease-out 0.5s backwards;
+   @for $i from 1 through 7{
+       &--#{$i}{
+           animation-delay: 0.1s*$i;
+       }
+   }
 }
+
 
 a{
     width: 170px;
@@ -136,5 +138,17 @@ a{
 
 .title{
     font-size: 30px;
+}
+
+@keyframes apparition{
+    from {
+        opacity: 0;
+        transform: translateY(5vh);
+        
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 </style>
