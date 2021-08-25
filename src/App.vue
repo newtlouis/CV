@@ -1,8 +1,12 @@
 <template>
 <div class="cv">
     <div id="nav">
-      <router-link to="/">Home</router-link> 
-      <router-link to="/about">About</router-link>
+      <router-link to="/"><i class="fas fa-user"></i></router-link> 
+      <router-link to="/skills"><i class="fas fa-tools"></i></router-link>
+      <router-link to="/projet"><i class="fas fa-lightbulb"></i></router-link>
+      <router-link to="/projet"><i class="fas fa-suitcase"></i></router-link>
+      <router-link to="/cursus"><i class="fas fa-history"></i></router-link>
+      <router-link to="/contact"><i class="fas fa-phone"></i></router-link>
     </div>
     <img alt="Vue logo" src="./assets/photo_profil.jpg">
 
@@ -13,6 +17,12 @@
 </template>
 
 <style lang="scss">
+
+$fa-font-path: "~@fortawesome/fontawesome-free/webfonts";
+@import "~@fortawesome/fontawesome-free/scss/fontawesome";
+@import "~@fortawesome/fontawesome-free/scss/solid"; // fas
+@import "~@fortawesome/fontawesome-free/scss/regular"; // far
+@import "~@fortawesome/fontawesome-free/scss/brands"; // fab
 
 *{
   margin: 0;

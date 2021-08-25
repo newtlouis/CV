@@ -1,6 +1,7 @@
 <template>
 <div class="main">
   <h2>A propos</h2>
+  <!-- <font-awesome-icon :icon="['fas', 'user-secret']" /> -->
   <p>Suite à mon diplôme d'ingénieur généraliste de l'école ENTPE à Lyon, j'ai poursuivi par la formation de developpeur web Full Stack au sein de l'organisme OpenClassrooms</p>
 </div>
 </template>
