@@ -1,5 +1,5 @@
 <template>
-  <div class="skills">
+  <div class="container">
     <h1>Skills</h1>
     <div class="skills__list">
       <div class="skills__item"><i class="fab fa-html5"></i>HTML5</div>
@@ -13,8 +13,8 @@
 </template>
 
 <style scoped>
-.skills{
-  padding: 30px;
+.container{
+  padding: 20px;
   overflow-y: scroll;
   scrollbar-color: rebeccapurple green;
   scrollbar-width: thin;

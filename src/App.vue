@@ -2,7 +2,7 @@
 <div class="cv">
     <Menu/>
    
-    <img alt="Vue logo" src="./assets/photo_profil.jpg">
+    <img alt="Photo profil Louis MICHEL" src="./assets/photo_profil.jpg">
 
     <section class="main">
       <router-view/>
@@ -63,7 +63,7 @@ $fa-font-path: "~@fortawesome/fontawesome-free/webfonts";
 
 
 .main{
-  // width: 100%;
+  width: 40vw;
   height: 100%;
   background-color: #ffffff;
   border: solid #414439 1px;
