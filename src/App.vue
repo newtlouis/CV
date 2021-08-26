@@ -48,8 +48,9 @@ $fa-font-path: "~@fortawesome/fontawesome-free/webfonts";
   color: #2c3e50;
   background-color:#FE9900;
   padding: 100px;
-  width: 100vw;
-  height: 100vh;
+  @media (max-width:700px) {
+    padding: 10px 10px 200px 10px;
+  }
 }
 
 .cv{
@@ -57,8 +58,19 @@ $fa-font-path: "~@fortawesome/fontawesome-free/webfonts";
   justify-content: center;
   align-content: center;
   align-items: center;
-  height: 100%;
-  
+  height: 500px;
+  margin: auto 0 ;
+
+  @media (max-width:1050px){
+    border: solid rgb(68, 68, 68) 15px;
+    }
+  @media (max-width:500px) {
+    flex-direction: column;
+    border: solid rgb(68, 68, 68) 5px;
+    box-shadow: 0 0 5px 5px rgb(68, 68, 68);
+
+  }
+   
 }
 
 
@@ -71,13 +83,22 @@ $fa-font-path: "~@fortawesome/fontawesome-free/webfonts";
   padding:20px;
   overflow-y: scroll;
   scrollbar-color: rebeccapurple green;
-  scrollbar-width: thin;
+  scrollbar-width:thin;
+    box-shadow: 0 0 5px 5px rgb(68, 68, 68);
+
+  @media (max-width:1050px) {
+    width: 100%;
+  }
 
 }
 
 img{
-  height: 80vh;
+  height: 550px;
   border: solid rgb(68, 68, 68) 15px;
+  @media (max-width:1050px) {
+    height: 0vw;
+  border: none;
+  }
 }
 
 h1{
