@@ -140,6 +140,13 @@ a{
     font-size: 30px;
 }
 
+.more{
+    
+    @media (max-width:1050px){
+      width: 30vw;
+      }
+}
+
 @keyframes apparition{
     from {
         opacity: 0;
