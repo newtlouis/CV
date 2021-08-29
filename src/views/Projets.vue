@@ -6,7 +6,7 @@
           <a class="reservia" href="https://newtlouis.github.io/Reservia--site-web/" target="_blank"></a>
         <div class="info">
             <div class="title">Reservia</div>
-            <div class="more">Intégration d'une maquette responsive d'un site de location d'appartement</div>
+            <div class="more">HTML CSS <br> Intégration d'une maquette responsive d'un site de location d'appartement</div>
         </div>
       </div>
 
@@ -14,7 +14,7 @@
         <a class="ohmyfood" href="https://newtlouis.github.io/Ohmyfood--site-web-anime/" target="_blank"></a>
         <div class="info">
             <div class="title">Ohmyfood (mobile)</div>
-            <div class="more">Intégration d'une maquette responsive d'une page mobile et dynamisation avec des animations CSS en utilisant le préprocesseur Sass</div>
+            <div class="more">HTML CSS SASS <br> Intégration d'une maquette responsive d'une page mobile et dynamisation avec des animations CSS en utilisant le préprocesseur Sass</div>
         </div>
       </div>
 
@@ -22,7 +22,7 @@
         <a class="orinoco" href="https://github.com/newtlouis/Orinoco--Front-End" target="_blank"></a>
         <div class="info">
             <div class="title">Orinoco</div>
-            <div class="more">Création d'une interface Front End pour la mise en place d'un Ecommerce, l'API backend étant déjà fournie.</div>
+            <div class="more">JavaScript Bootstrap HTML<br> Création d'une interface Front End pour la mise en place d'un Ecommerce, l'API backend étant déjà fournie.</div>
         </div>
       </div>
 
@@ -30,7 +30,7 @@
         <a class="peakocko" href="https://github.com/newtlouis/peakocko-API-securisee" target="_blank"></a>
         <div class="info">
             <div class="title">So Peakocko- Backend</div>
-            <div class="more">Création d'une API sécurisée pour l'application de sauce "So Peakocko" </div>
+            <div class="more">NodeJs MongoDB <br> Création d'une API sécurisée pour l'application de sauce "So Peakocko" </div>
         </div>
       </div>
 
@@ -38,7 +38,7 @@
         <a class="groupomania" href="https://github.com/newtlouis/R-seau-social-d-entreprise--Groupomania" target="_blank"></a>
         <div class="info">
             <div class="title">Groupomania</div>
-            <div class="more">Developpement d'une application Full Stack et création d'un réseau social d'entreprise</div>
+            <div class="more">VueJs JavaScript HTML CSS / NodeJs MySql <br> Developpement d'une application Full Stack et création d'un réseau social d'entreprise</div>
         </div>
       </div>
 
