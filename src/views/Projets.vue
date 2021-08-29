@@ -46,7 +46,7 @@
         <a class="todolist" href="https://github.com/newtlouis/todo-list" target="_blank"></a>
         <div class="info">
             <div class="title">Todo List</div>
-            <div class="more">Création d'une application Full Stack Todo List</div>
+            <div class="more">VueJs Javascript HTML CSS <br>Création d'une application Full Stack Todo List</div>
         </div>
       </div>
 
@@ -54,7 +54,7 @@
         <a class="weatherapp" href="https://github.com/newtlouis/weather-app" target="_blank"></a>
         <div class="info">
             <div class="title">Weather App</div>
-            <div class="more">Création d'une application météo</div>
+            <div class="more">VueJs Javascript HTML CSS <br> Création d'une application météo</div>
         </div>
       </div>
       
